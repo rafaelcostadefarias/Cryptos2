@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		435A687120247B7F003F808F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435A687020247B7F003F808F /* AppDelegate.swift */; };
-		435A687320247B7F003F808F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435A687220247B7F003F808F /* ViewController.swift */; };
-		435A687620247B80003F808F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435A687420247B80003F808F /* Main.storyboard */; };
-		435A687820247B80003F808F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435A687720247B80003F808F /* Assets.xcassets */; };
-		435A687B20247B80003F808F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435A687920247B80003F808F /* LaunchScreen.storyboard */; };
+		0B1455D42035E74300B759FB /* favoritosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1455D32035E74300B759FB /* favoritosTableViewController.swift */; };
+		0B3FD7D1202677C400E4C5D5 /* HeatMapCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FD7D0202677C400E4C5D5 /* HeatMapCollectionViewController.swift */; };
+		435A689C20247BD8003F808F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435A688B20247BD7003F808F /* Assets.xcassets */; };
+		435A689D20247BD8003F808F /* fireIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 435A688C20247BD7003F808F /* fireIcon.png */; };
+		435A689E20247BD8003F808F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435A688D20247BD7003F808F /* ViewController.swift */; };
+		435A689F20247BD8003F808F /* ListaMoedasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435A688E20247BD7003F808F /* ListaMoedasTableViewController.swift */; };
+		435A68A020247BD8003F808F /* Globais.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435A688F20247BD7003F808F /* Globais.swift */; };
+		435A68A120247BD8003F808F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435A689020247BD7003F808F /* AppDelegate.swift */; };
+		435A68A220247BD8003F808F /* Cryptos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 435A689120247BD7003F808F /* Cryptos.xcdatamodeld */; };
+		435A68A320247BD8003F808F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 435A689320247BD7003F808F /* Info.plist */; };
+		435A68A420247BD8003F808F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435A689520247BD7003F808F /* LaunchScreen.storyboard */; };
+		435A68A520247BD8003F808F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435A689720247BD7003F808F /* Main.storyboard */; };
+		435A68A620247BD8003F808F /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435A689920247BD7003F808F /* CelulaTableViewCell.swift */; };
+		435A68A720247BD8003F808F /* fireIcon2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 435A689A20247BD8003F808F /* fireIcon2X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		435A686D20247B7F003F808F /* Cryptos2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptos2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		435A687020247B7F003F808F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		435A687220247B7F003F808F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		435A687520247B80003F808F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		435A687720247B80003F808F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		435A687A20247B80003F808F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		435A687C20247B80003F808F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1455D32035E74300B759FB /* favoritosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritosTableViewController.swift; sourceTree = "<group>"; };
+		0B3FD7D0202677C400E4C5D5 /* HeatMapCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapCollectionViewController.swift; sourceTree = "<group>"; };
+		435A688220247BD6003F808F /* Cryptos2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cryptos2-Bridging-Header.h"; sourceTree = "<group>"; };
+		435A688320247BD6003F808F /* Cryptos2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptos2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435A688620247BD6003F808F /* Cryptos2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cryptos2-Bridging-Header.h"; sourceTree = "<group>"; };
+		435A688720247BD6003F808F /* Cryptos2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Cryptos2.xcodeproj; sourceTree = "<group>"; };
+		435A688B20247BD7003F808F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		435A688C20247BD7003F808F /* fireIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireIcon.png; sourceTree = "<group>"; };
+		435A688D20247BD7003F808F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		435A688E20247BD7003F808F /* ListaMoedasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaMoedasTableViewController.swift; sourceTree = "<group>"; };
+		435A688F20247BD7003F808F /* Globais.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globais.swift; sourceTree = "<group>"; };
+		435A689020247BD7003F808F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		435A689220247BD7003F808F /* Cryptos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cryptos.xcdatamodel; sourceTree = "<group>"; };
+		435A689320247BD7003F808F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435A689620247BD7003F808F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		435A689820247BD7003F808F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		435A689920247BD7003F808F /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelulaTableViewCell.swift; sourceTree = "<group>"; };
+		435A689A20247BD8003F808F /* fireIcon2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireIcon2X.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,29 +59,62 @@
 			isa = PBXGroup;
 			children = (
 				435A686F20247B7F003F808F /* Cryptos2 */,
-				435A686E20247B7F003F808F /* Products */,
+				435A688320247BD6003F808F /* Cryptos2.app */,
 			);
-			sourceTree = "<group>";
-		};
-		435A686E20247B7F003F808F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				435A686D20247B7F003F808F /* Cryptos2.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		435A686F20247B7F003F808F /* Cryptos2 */ = {
 			isa = PBXGroup;
 			children = (
-				435A687020247B7F003F808F /* AppDelegate.swift */,
-				435A687220247B7F003F808F /* ViewController.swift */,
-				435A687420247B80003F808F /* Main.storyboard */,
-				435A687720247B80003F808F /* Assets.xcassets */,
-				435A687920247B80003F808F /* LaunchScreen.storyboard */,
-				435A687C20247B80003F808F /* Info.plist */,
+				435A689020247BD7003F808F /* AppDelegate.swift */,
+				435A688B20247BD7003F808F /* Assets.xcassets */,
+				435A689420247BD7003F808F /* Base.lproj */,
+				435A689920247BD7003F808F /* CelulaTableViewCell.swift */,
+				435A689120247BD7003F808F /* Cryptos.xcdatamodeld */,
+				435A688420247BD6003F808F /* Cryptos2 */,
+				435A688C20247BD7003F808F /* fireIcon.png */,
+				435A689A20247BD8003F808F /* fireIcon2X.png */,
+				435A688F20247BD7003F808F /* Globais.swift */,
+				0B1455D32035E74300B759FB /* favoritosTableViewController.swift */,
+				0B3FD7D0202677C400E4C5D5 /* HeatMapCollectionViewController.swift */,
+				435A689320247BD7003F808F /* Info.plist */,
+				435A688E20247BD7003F808F /* ListaMoedasTableViewController.swift */,
+				435A688D20247BD7003F808F /* ViewController.swift */,
+				435A688220247BD6003F808F /* Cryptos2-Bridging-Header.h */,
 			);
 			path = Cryptos2;
+			sourceTree = "<group>";
+		};
+		435A688420247BD6003F808F /* Cryptos2 */ = {
+			isa = PBXGroup;
+			children = (
+				435A688520247BD6003F808F /* Cryptos2 */,
+				435A688720247BD6003F808F /* Cryptos2.xcodeproj */,
+			);
+			name = Cryptos2;
+			sourceTree = SOURCE_ROOT;
+		};
+		435A688520247BD6003F808F /* Cryptos2 */ = {
+			isa = PBXGroup;
+			children = (
+				435A688620247BD6003F808F /* Cryptos2-Bridging-Header.h */,
+			);
+			path = Cryptos2;
+			sourceTree = "<group>";
+		};
+		435A688820247BD6003F808F /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435A689420247BD7003F808F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				435A689520247BD7003F808F /* LaunchScreen.storyboard */,
+				435A689720247BD7003F808F /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = ../../Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,7 +134,7 @@
 			);
 			name = Cryptos2;
 			productName = Cryptos2;
-			productReference = 435A686D20247B7F003F808F /* Cryptos2.app */;
+			productReference = 435A688320247BD6003F808F /* Cryptos2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,6 +149,7 @@
 				TargetAttributes = {
 					435A686C20247B7F003F808F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -109,8 +163,14 @@
 				Base,
 			);
 			mainGroup = 435A686420247B7F003F808F;
-			productRefGroup = 435A686E20247B7F003F808F /* Products */;
+			productRefGroup = 435A686420247B7F003F808F;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 435A688820247BD6003F808F /* Products */;
+					ProjectRef = 435A688720247BD6003F808F /* Cryptos2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				435A686C20247B7F003F808F /* Cryptos2 */,
@@ -123,9 +183,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435A687B20247B80003F808F /* LaunchScreen.storyboard in Resources */,
-				435A687820247B80003F808F /* Assets.xcassets in Resources */,
-				435A687620247B80003F808F /* Main.storyboard in Resources */,
+				435A689D20247BD8003F808F /* fireIcon.png in Resources */,
+				435A68A520247BD8003F808F /* Main.storyboard in Resources */,
+				435A68A420247BD8003F808F /* LaunchScreen.storyboard in Resources */,
+				435A689C20247BD8003F808F /* Assets.xcassets in Resources */,
+				435A68A720247BD8003F808F /* fireIcon2X.png in Resources */,
+				435A68A320247BD8003F808F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,28 +199,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435A687320247B7F003F808F /* ViewController.swift in Sources */,
-				435A687120247B7F003F808F /* AppDelegate.swift in Sources */,
+				435A68A220247BD8003F808F /* Cryptos.xcdatamodeld in Sources */,
+				435A689E20247BD8003F808F /* ViewController.swift in Sources */,
+				435A68A020247BD8003F808F /* Globais.swift in Sources */,
+				0B3FD7D1202677C400E4C5D5 /* HeatMapCollectionViewController.swift in Sources */,
+				0B1455D42035E74300B759FB /* favoritosTableViewController.swift in Sources */,
+				435A68A120247BD8003F808F /* AppDelegate.swift in Sources */,
+				435A689F20247BD8003F808F /* ListaMoedasTableViewController.swift in Sources */,
+				435A68A620247BD8003F808F /* CelulaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		435A687420247B80003F808F /* Main.storyboard */ = {
+		435A689520247BD7003F808F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				435A687520247B80003F808F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		435A687920247B80003F808F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				435A687A20247B80003F808F /* Base */,
+				435A689620247BD7003F808F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		435A689720247BD7003F808F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435A689820247BD7003F808F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,11 +343,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Cryptos2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = i.com.Cryptos2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cryptos2/Cryptos2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +362,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Cryptos2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = i.com.Cryptos2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cryptos2/Cryptos2-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,6 +398,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		435A689120247BD7003F808F /* Cryptos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				435A689220247BD7003F808F /* Cryptos.xcdatamodel */,
+			);
+			currentVersion = 435A689220247BD7003F808F /* Cryptos.xcdatamodel */;
+			path = Cryptos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 435A686520247B7F003F808F /* Project object */;
 }
